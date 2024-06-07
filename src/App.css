@@ -1,0 +1,226 @@
+*,::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'saira semicondensed'!important;
+}
+
+/* default css start */
+
+.space-x{
+  margin: 50px 0;
+}
+
+i{
+  text-decoration: none;
+  font-style: normal;  
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* default css end */
+
+/* header section css start */
+
+.logo {
+  width: 30% !important;
+}
+
+.logo img {
+  width: 100px !important;
+}
+
+.login-btn {
+  background-color: #03045a !important;
+  padding: 8px 32px !important;
+  border: none !important;
+  border-radius: 50px 0 50px 50px !important;
+}
+
+.login-btn:hover{
+  background-color: transparent !important;
+  border: 2px solid #03045a !important;
+  color: #03045a !important;
+}
+
+.a-remove {
+  text-decoration: none !important;
+  color: #03045a !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+
+
+.line-1 {
+  position: absolute;
+  bottom: 2px;
+  background-color: #03045a !important;
+  width: 50px !important;
+  height: 2px !important;
+  border-radius: 20px !important;
+  background-color: #EEC54F !important;
+  opacity: 0;
+  transition: .2s;
+}
+
+.line-2 {
+  position: absolute;
+  bottom: 2px;
+  background-color: #03045a !important;
+  width: 50px !important;
+  height: 2px !important;
+  border-radius: 20px !important;
+  background-color: #D03441 !important;
+  opacity: 0;
+  transition: .2s;
+}
+
+.line-3 {
+  position: absolute;
+  bottom: 2px;
+  background-color: #03045a !important;
+  width: 50px !important;
+  height: 2px !important;
+  border-radius: 20px !important;
+  background-color: #409048 !important;
+  opacity: 0;
+  transition: .2s;
+}
+
+.line-4 {
+  position: absolute;
+  bottom: 2px;
+  background-color: #03045a !important;
+  width: 50px !important;
+  height: 2px !important;
+  border-radius: 20px !important;
+  background-color: #1839A0 !important;
+  opacity: 0;
+  transition: .2s;
+}
+
+
+.a-remove:hover .line-1 {
+  opacity: 1 !important;
+  bottom: -10px;
+}
+
+.a-remove:hover .line-2 {
+  opacity: 1 !important;
+  bottom: -10px;
+}
+
+.a-remove:hover .line-3 {
+  opacity: 1 !important;
+  bottom: -10px;
+}
+
+.a-remove:hover .line-4 {
+  opacity: 1 !important;
+  bottom: -10px;
+
+}
+
+
+.off-btn{
+  background-color: #03045a !important;
+  border: none !important;
+  margin-right: 12px !important;
+}
+
+
+/* header section css end */
+
+/* section-1 css start  */
+
+
+.heading {
+  letter-spacing: 0.3rem;
+}
+
+.heading-2{
+  font-family: 'saira semicondensed'!important;
+}
+
+.phone-btn{
+  padding: 12px 38px;
+  border: none;
+  border-radius: 40px 0 40px 0;
+  color: #fff;
+  background-color: #EEC54F;
+  transition: .4s;
+}
+
+.phone-btn:hover{
+  border-radius:0 40px 0 40px;
+  
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid  !important;
+  }
+  
+  .form-control {
+  background-color: rgb(244, 244, 244) !important;
+}
+
+.bg-img{
+  width: 70%;
+  position: relative;
+}
+
+.bg-img img{
+  width: 100%;
+  position: absolute;
+  top: -320px;
+  right: -440px;
+}
+
+.dot-img{
+  width: 100%;
+}
+
+.dot-img img{
+  width: 35%;
+}
+
+.p-abs{
+  position: absolute;
+  top: 210px;
+  left: 200px;
+  z-index: -1;
+}
+
+.box-green{
+  position: absolute;
+  right: -40px;
+  top: 280px;
+  background: linear-gradient(to right,rgba(37, 211, 57,60%) , #FFFFFF);
+  border-radius: 30px;
+  padding: 20px;
+  width: 50%;
+}
+
+.box-green p{ 
+  font-size: 20px;
+}
+
+.box-green span p{
+  text-align: center;
+}
+
+.box-green span div{
+  height: 80px;
+}
+
+/* section-1 css end */
