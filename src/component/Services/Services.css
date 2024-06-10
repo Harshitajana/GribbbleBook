@@ -1,19 +1,44 @@
+
+section{
+    margin-top: 100px;
+    border-radius: 16px;
+}
+
 .head {
+    width: 60%;
     height: 80px;
     align-content: center;
     margin: 20px 200px;
     text-align: center;
-    background-color: brown;
+    background: linear-gradient(to right,#CA4450 , #F7F7F7) ;
     border-radius: 55px 0px;
+    position: absolute;
+    top: -160px;
 }
+
 .head h3 {
     justify-content: center;
 }
 
-.services-img img{
-    width: 150px;
-    height: 150px;
+.services-img{
+    transform: scale(0.8);
+    transition: .4s;
 }
+
+.services-img:hover{
+    transform: scale(1);
+}
+
+.services-img img{
+    width: 100px;
+    margin: auto;
+    background-color: #F7F7F7;
+}
+
+.card {
+    background-color: transparent !important;
+}
+
 .ser_item .services-img img {
     padding: 25px;
     text-align: center;
@@ -21,8 +46,14 @@
 
 .services-img h3{
     padding: 15px;
+    text-align: center;
 }
 
 .set_center {
     margin: 0 70px;
+}
+
+.set_center .col{
+    border-right-color: #F6F6F6;
+    margin: 4px;
 }

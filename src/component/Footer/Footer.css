@@ -55,12 +55,6 @@
   }
   
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Saira Semi Condensed", sans-serif;
-}
 .logo img {
     width: 125px !important;
     height: 80px;
