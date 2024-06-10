@@ -18,7 +18,7 @@ import img2 from "../images/img2.png";
 function Section1() {
   return (
     <>
-      <div className="space-x">
+      <section className="space-x">
         <Container>
           <Row>
             <Col sm={12}>
@@ -87,7 +87,7 @@ function Section1() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </section>
     </>
   );
 }

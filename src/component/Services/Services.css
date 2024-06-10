@@ -1,0 +1,28 @@
+.head {
+    height: 80px;
+    align-content: center;
+    margin: 20px 200px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 55px 0px;
+}
+.head h3 {
+    justify-content: center;
+}
+
+.services-img img{
+    width: 150px;
+    height: 150px;
+}
+.ser_item .services-img img {
+    padding: 25px;
+    text-align: center;
+}
+
+.services-img h3{
+    padding: 15px;
+}
+
+.set_center {
+    margin: 0 70px;
+}
